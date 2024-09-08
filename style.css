@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 100px;
+    background-color: #ffe4e1; /* Cor de fundo romântica */
+    background-image: url('https://cdn.pixabay.com/photo/2016/11/19/18/06/heart-1846436_1280.png'); /* Corações de fundo */
+    background-size: 100px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+input {
+    padding: 10px;
+    margin: 10px;
+    width: 200px;
+    height: 30px;
+    border: 2px solid #ff69b4;
+    border-radius: 5px;
+    text-align: center;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #ff69b4;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #ff1493;
+}
+
+.result {
+    margin-top: 20px;
+    font-size: 24px;
+    color: #ff4500;
+}
+
+h1 {
+    color: #ff69b4;
+    font-size: 36px;
+}
+
+p {
+    color: #000000;
+}
+
+
+footer {
+    margin-top: 50px;
+    padding: 10px; /* Diminuindo a altura do rodapé */
+    background-color: #ff69b4; /* Cor de fundo do rodapé */
+    color: white;
+}
+
+footer p {
+    margin: 5px 0; /* Reduzindo a margem dos parágrafos no rodapé */
+}
+
+footer .rights {
+    color: #d3d3d3; /* Tom de cinza para os direitos reservados */
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer a:hover {
+    color: #ff1493;
+}
+
+img {
+    height: 300px;
+}
